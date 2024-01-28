@@ -217,7 +217,7 @@
                     }));
                     if (jobsCount) for (let i = 1; i <= jobsCount; i++) {
                         const positionName = `Position Name #${i}`;
-                        const positionButtonHtml = `<a href="https://docs.google.com/forms/d/e/1FAIpQLSch7tmtv2d2A0xgcZEICHL3efOEgflAGl_Wi2B5giQMljI4KA/viewform?usp=sf_link" class="position-button">\n\t\t\t\t\t\t\t<div class="position-button__title">${positionName}</div>\n\t\t\t\t\t\t\t<div class="position-button__link">view</div>\n\t\t\t\t\t\t\t<img class="position-button__bg" src="../img/careers/team-bg.jpg" alt="">\n\t\t\t\t\t\t\t</a>`;
+                        const positionButtonHtml = `<a href="https://docs.google.com/forms/d/e/1FAIpQLSch7tmtv2d2A0xgcZEICHL3efOEgflAGl_Wi2B5giQMljI4KA/viewform?usp=sf_link" class="position-button">\n\t\t\t\t\t\t\t<div class="position-button__title">Position Open</div>\n\t\t\t\t\t\t\t<div class="position-button__link">Apply here</div>\n\t\t\t\t\t\t\t<img class="position-button__bg" src="../img/careers/team-bg.jpg" alt="">\n\t\t\t\t\t\t\t</a>`;
                         popupContent.insertAdjacentHTML("beforeend", positionButtonHtml);
                     }
                     if (jobsFirstTitle) {
