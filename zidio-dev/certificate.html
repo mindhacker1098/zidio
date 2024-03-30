@@ -110,13 +110,13 @@
                         var certificateId = document.getElementById("certificateId").value;
                     
                       
-                        if (certificateId.trim() === ""||certificateId.substring(0, 5) != "zidio") {
+                        if (certificateId.trim() === "" || certificateId.substring(0, 5) != "zidio") {
                             alert("Please enter a valid Certificate id");
                             return;
                         }
                     
                        
-                        let downloadUrl = "https://github.com/zidiodev/Certificate/raw/main/" + certificateId.substring(5)+".pdf";
+                        let downloadUrl = "https://github.com/zidiodev/Certificate/raw/main/" + certificateId.substring(6)+".pdf";
                     
                         let anchor = document.createElement("a");
                     
