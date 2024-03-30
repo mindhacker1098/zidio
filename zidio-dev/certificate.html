@@ -110,7 +110,7 @@
                         var certificateId = document.getElementById("certificateId").value;
                     
                       
-                        if (certificateId.trim() === ""||certificateId.substring(0, 6) === "zidio") {
+                        if (certificateId.trim() === ""||certificateId.substring(0, 6) != "zidio") {
                             alert("Please enter a valid Certificate id");
                             return;
                         }
